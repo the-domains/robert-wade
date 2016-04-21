@@ -1,28 +1,40 @@
-name: Robert Wade
-favicon: null
-layout_spectrum: 0.8637413601391017
-typography_spectrum: 0.29905051249079406
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.8870968
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.9944049676414579
+  brandStrength: 0.6307004522532225
+  rhythmicContrast: 0.869515749393031
   brandColors:
     - '#FF6700'
     - '#EBEBEB'
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
-  brandStrength: 0.6307004522532225
   lightness: 0.7096745618619025
-  saturation: 0.9944049676414579
-  rhythmicContrast: 0.869515749393031
-purpose: []
+typography_spectrum: 0.4569893
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: Robert Wade
